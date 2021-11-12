@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 //Background
-const colors = ["#dcedc1", "#0e9aa7", "#88d8b0", "#f6cd61", "#fe8a71"];
+const colors = ["#000000", "#000000", "#000000", "#FFFFFF", "#FFFFFF"];
 
 const numBalls = 100;
 const balls = [];
