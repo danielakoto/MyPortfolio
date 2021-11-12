@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(45deg,rgb(12, 12, 12) 0 50%, rgb(255, 232, 232)50% 100%);
+    background: linear-gradient(45deg,rgb(242, 232, 255), rgb(255, 232, 232));
 }
 
 .navHeader {
@@ -66,7 +66,6 @@ nav ul li a:hover {
 
 .col-1 {
     flex-basis: 40%;
-    position: relative;
     margin-left: 50px;
     animation: transitionIn 0.4s;
     color: black;
@@ -74,13 +73,16 @@ nav ul li a:hover {
 
 .col-2 {
     color: rgb(0, 0, 0);
-    margin-top: 45px;
-    display: flex;
+    margin-top: 40px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     animation: transitionIn 1s;
     width: 50%;
-    justify-content: center;
+    max-width: 600px;
+    min-width: 380px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
 
 p {
@@ -125,22 +127,30 @@ img {
 
 .whitebox {
     width: 50%;
-    margin: 30px;
+    max-width: 600px;
+    min-width: 380px;
+    margin-top: 30px;
     display: inline-block;
     background-color: white;
     color: black;
     border-radius: 5px;
     animation: transitionIn 2s;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .whitebox2 {
     width: 50%;
-    margin: 40px;
+    max-width: 600px;
+    min-width: 380px;
+    margin-top: 40px;
     display: inline-block;
     background-color: white;
     color: black;
     border-radius: 5px;
     animation: transitionIn 1.2s;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -155,4 +165,10 @@ a {
     to {
         opacity: 1;
     }
+}
+ @media handheld, only screen and (max-width: 2560px) 
+{
+    .whitebox .whitebox2 .col-2 {
+        width: 100%;
+     }
 }
