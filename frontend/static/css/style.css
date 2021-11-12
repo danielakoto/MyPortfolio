@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, beige, rgb(255, 255, 255));
+    background: linear-gradient(45deg, rgb(255, 222, 173), rgb(255, 248, 211));
 }
 
 .navHeader {
@@ -98,7 +98,7 @@ p {
 .ball {
     position: fixed;
     border-radius: 100%;
-    opacity: 0.08;
+    opacity: 0.05;
     z-index: -1;
   }
 
