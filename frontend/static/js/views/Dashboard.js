@@ -11,13 +11,13 @@ export default class extends AbstractView {
         <center>
         <div class="row">
             <div class="col-1">
-                <h1>Welcome to Daniel's portfolio</h1>
-                <h4>It is nice to have you here, please feel free <br>to explore my projects</h3>
+                <h1>Hi, welcome to Daniel's portfolio</h1>
+                <h4>It is nice to have you here,</h3>
             </div>
         </div>
         <div class="col-2">
             <center>
-                <p>Currently enrolled at Towson University with a passion for creating programs and apps. I graduate May 2022. I am currently looking for entry positions.</p>
+                <p>I am currently enrolled at Towson University studying Computer Science and I have a passion for creating programs and apps. I graduate May, 2022.</p>
             </center>
         </div>
         </center>
