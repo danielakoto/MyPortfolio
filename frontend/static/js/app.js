@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //Background
 const colors = ["#000000", "#000000", "#000000", "#000000", "#000000"];
 
-const numBalls = 100;
+const numBalls = 50;
 const balls = [];
 
 for (let i = 0; i < numBalls; i++) {
